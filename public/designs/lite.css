@@ -305,6 +305,18 @@ body {
 .ch_name {
     margin-left: 0px;
 }
+
+.ch_personality{
+    /* background: green; */
+    font-weight:lighter;
+	font-size: 12px;
+	opacity:75%;
+	display: inline-block;
+	overflow-wrap:break-word;
+	margin-left: 10px;
+	margin-right: 3px;
+}
+
 .avatar {
     width: 45px;
     height: 45px;
@@ -594,7 +606,7 @@ display: none;
 .character_select .ch_name{
     margin-left: 0px;
     margin-top: 5px;
-    transform: translateY(25%);
+    /*transform: translateY(25%);*/
 }
 
 /*LEFT SIDE BG MENU*/
