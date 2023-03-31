@@ -219,6 +219,17 @@ body {
     margin-left: 0px;
 }
 
+.ch_personality{
+    /* background: green; */
+    font-weight:lighter;
+	font-size: 12px;
+	opacity:75%;
+	display: inline-block;
+	overflow-wrap:break-word;
+	margin-left: 10px;
+	margin-right: 3px;
+}
+
 .mes_text i, .mes_text em {
     color: rgb(106,135,149)
 }
