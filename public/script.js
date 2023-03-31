@@ -482,7 +482,7 @@ $(document).ready(function(){
                 this_avatar = "characters/"+item.avatar+"?v="+Date.now();
 
             }
-            $("#rm_print_charaters_block").prepend('<div class=character_select chid='+i+'><div class=avatar><img src="'+this_avatar+'"></div><div class=ch_name_menu>'+item.name+'</div></div>');
+            $("#rm_print_charaters_block").prepend('<div class=character_select chid='+i+'><div class=avatar><img src="'+this_avatar+'"></div><div><div class=ch_name>'+item.name+'</div><div class=ch_personality>'+item.personality+'</div></div></div>');
             //console.log(item.name);
         });
 
