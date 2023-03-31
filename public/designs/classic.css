@@ -408,6 +408,18 @@ hr {
     margin-top: 6px;
     font-weight:bolder;
 }
+
+.ch_personality{
+    /* background: green; */
+    font-weight:lighter;
+	font-size: 12px;
+	opacity:75%;
+	display: inline-block;
+	overflow-wrap:break-word;
+	margin-left: 10px;
+	margin-right: 3px;
+}
+
 .name_select {
     display: none;
     grid-area: 1 / 1 / 2 / 4;
